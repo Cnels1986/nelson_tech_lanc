@@ -71,7 +71,8 @@ table {
   background-color: #ffab00;
   border: none;
   font-size: 18px;
-  padding: 20px 15px 0px; }
+  padding: 20px 15px 20px;
+  height: 100%; }
 
 .navLink {
   padding: 10px;
@@ -79,10 +80,23 @@ table {
   color: #064159;
   background-color: #ffab00;
   font-family: "Lato", sans-serif;
-  float: right; }
+  text-align: center; }
 
 .navBar:hover .navList {
   display: block; }
+
+.hero {
+  background-image: url("Home Page.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.hero h1 {
+  font-family: "Lato", sans-serif;
+  color: #efe9d8;
+  font-size: 36px;
+  text-align: left;
+  font-weight: bold;
+  padding: 108px 50px 108px 30px; }
 
 .container {
   width: 320px;
