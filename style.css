@@ -41,4 +41,51 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.header {
+  height: 58px;
+  background-color: #ffab00; }
+
+.logo {
+  font-size: 21px;
+  color: #064159;
+  font-family: "Lato", sans-serif;
+  padding: 20px 0px 20px 25px;
+  text-align: left;
+  display: inline-block; }
+
+.logo strong {
+  font-weight: 900; }
+
+.navBar {
+  float: right;
+  display: inline-block;
+  height: 100%; }
+
+.navList {
+  display: none;
+  background-color: header_color; }
+
+.navBut {
+  color: #064159;
+  text-decoration: none;
+  background-color: #ffab00;
+  border: none;
+  font-size: 18px;
+  padding: 20px 15px 0px; }
+
+.navLink {
+  padding: 10px;
+  text-decoration: none;
+  color: #064159;
+  background-color: #ffab00;
+  font-family: "Lato", sans-serif;
+  float: right; }
+
+.navBar:hover .navList {
+  display: block; }
+
+.container {
+  width: 320px;
+  margin: 0 auto; }
+
 /*# sourceMappingURL=style.css.map */

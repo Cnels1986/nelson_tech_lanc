@@ -1,1 +1,10 @@
-@import "reset"
+@import "reset";
+@import "color_n_font";
+@import "header";
+
+.container{
+  // min-width: 320px; //Mobile's minimum width
+  // max-width: 1600px; //Browsers maximum width
+  width: 320px;
+  margin: 0 auto;
+}
