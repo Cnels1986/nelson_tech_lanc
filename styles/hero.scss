@@ -1,0 +1,17 @@
+@import "color_n_font";
+
+.hero{
+  background-image: url('Home Page.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  // min-height: 528px;
+}
+
+.hero h1{
+  font-family: $lato;
+  color: $hero_text;
+  font-size: 36px;
+  text-align: left;
+  font-weight: bold;
+  padding: 108px 50px 108px 30px;
+}
