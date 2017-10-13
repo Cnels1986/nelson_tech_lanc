@@ -120,15 +120,20 @@ table {
 .redline {
   background-color: #ee3e28;
   height: 1px;
-  width: 90%;
-  margin: 0 auto;
-  margin: 30px 0px; }
+  width: 100%;
+  margin: 0 auto; }
+
+.events {
+  padding-top: 30px; }
 
 .eventHeader {
   color: #eb503c;
   font-family: "Lato", sans-serif;
   font-weight: bold;
   font-size: 16px; }
+
+.content:last-of-type {
+  padding-bottom: 30px; }
 
 aside .boldDroid, aside .content {
   padding-top: 20px; }
