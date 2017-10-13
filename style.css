@@ -102,7 +102,8 @@ table {
   background-color: #ffc400; }
 
 .contentBorder {
-  padding: 50px 30px; }
+  padding: 50px 30px;
+  background-color: transparent; }
 
 .boldDroid {
   font-family: "Droid Serif", serif;
@@ -123,14 +124,12 @@ table {
   width: 100%;
   margin: 0 auto; }
 
-.events {
-  padding-top: 30px; }
-
 .eventHeader {
   color: #eb503c;
   font-family: "Lato", sans-serif;
   font-weight: bold;
-  font-size: 16px; }
+  font-size: 16px;
+  padding: 30px 0px; }
 
 .content:last-of-type {
   padding-bottom: 30px; }
@@ -145,8 +144,43 @@ aside .boldDroid, aside .content {
   padding: 20px 0px;
   display: inline-block; }
 
+.eventLink {
+  text-decoration: none;
+  color: #4c1a14;
+  font-size: 21px;
+  font-weight: bold;
+  font-family: "Droid Serif", serif;
+  line-height: 1.7; }
+
+.whitebg {
+  background-color: white; }
+
+.tanbg {
+  background-color: #edecde; }
+
 .link:last-of-type {
   padding-left: 50px; }
+
+.secHead {
+  font-size: 21px;
+  color: #4e1c07;
+  padding: 50px 0px 30px; }
+
+.value h3 {
+  font-size: 18px;
+  font-style: italic;
+  color: #021d2c;
+  font-family: "Droid Serif", serif; }
+
+.value p {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Droid Serif", serif;
+  color: #021d2c; }
+
+.purpose h2 {
+  font-size: 21px;
+  color: #4e1c07; }
 
 footer {
   background-color: white;
