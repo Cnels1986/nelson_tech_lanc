@@ -6,13 +6,13 @@
 
 .contentBorder{
   padding: 50px 30px;
+  background-color: transparent;
 }
 
 .boldDroid{
   font-family: $droid;
   font-size: 18px;
   color: content_header;
-  // padding: 50px 30px 30px 30px;
   line-height: 1.6;
 }
 
@@ -31,17 +31,15 @@
   margin: 0 auto;
 }
 
-.events{
-  padding-top: 30px;
-}
-
 .eventHeader{
   color: $section_header;
   font-family: $lato;
   font-weight: bold;
   font-size: 16px;
-  // padding: 30px 0px 20px 30px
+  padding: 30px 0px;
 }
+
+
 
 .content:last-of-type{
   padding-bottom: 30px;
@@ -59,6 +57,48 @@ aside .boldDroid, aside .content{
   display: inline-block;
 }
 
+.eventLink{
+  text-decoration: none;
+  color: $big_links;
+  font-size: 21px;
+  font-weight: bold;
+  font-family: $droid;
+  line-height: 1.7;
+}
+
+.whitebg{
+  background-color: white;
+}
+
+.tanbg{
+  background-color: $section_color;
+}
+
 .link:last-of-type{
   padding-left: 50px;
+}
+
+.secHead{
+  font-size: 21px;
+  color: $content_header;
+  padding: 50px 0px 30px
+}
+
+.value h3{
+  font-size: 18px;
+  font-style: italic;
+  color: $content;
+  font-family: $droid;
+}
+
+.value p{
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: $droid;
+  color: $content;
+}
+
+.purpose h2{
+  font-size: 21px;
+  color: $content_header;
 }
