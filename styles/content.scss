@@ -168,7 +168,7 @@ aside .boldDroid, aside .content{
   padding-bottom: 10px;
 }
 
-.eventContent{
+.address{
   @extend .mobilePadding;
   @include text($lato, $content, 16px, 1.6);
   padding-bottom: 10px;
@@ -179,5 +179,40 @@ aside .boldDroid, aside .content{
   @extend .mobilePadding;
   @include text($lato, $content_header, 16px, 2);
   font-weight: bold;
+  text-decoration: none;
+}
+
+.eventContainer{
+  padding-top: 50px;
+}
+
+.involved{
+  background-color: $section_header;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.meetup{
+  background-color: $startup_color;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.calName{
+  @extend .mobilePadding;
+  @include text($droid, $hero_text, 21px, 1.5);
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.calContent{
+  @extend .mobilePadding;
+  @include text($lato, $hero_text, 18px, 1.5);
+  padding-bottom: 10px;
+}
+
+.calLink{
+  @extend .mobilePadding;
+  @include text($lato, $hero_text, 16px, 1.7);
   text-decoration: none;
 }
