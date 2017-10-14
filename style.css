@@ -203,7 +203,7 @@ aside .boldDroid, aside .content{
 }
 
 */
-.mobilePadding, .overviewHeader, .overviewContent, .eventHeader, .eventName, .date, .eventContent, .eventLink {
+.mobilePadding, .overviewHeader, .overviewContent, .eventHeader, .eventName, .date, .address, .eventLink, .calName, .calContent, .calLink {
   padding: 0px 30px; }
 
 .contentContainer {
@@ -258,7 +258,7 @@ aside .boldDroid, aside .content{
   font-weight: bold;
   padding-bottom: 10px; }
 
-.eventContent {
+.address {
   font-family: "Lato", sans-serif;
   color: #021d2c;
   font-size: 16px;
@@ -272,6 +272,41 @@ aside .boldDroid, aside .content{
   font-size: 16px;
   line-height: 2;
   font-weight: bold;
+  text-decoration: none; }
+
+.eventContainer {
+  padding-top: 50px; }
+
+.involved {
+  background-color: #eb503c;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.meetup {
+  background-color: #a13729;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.calName {
+  font-family: "Droid Serif", serif;
+  color: #efe9d8;
+  font-size: 21px;
+  line-height: 1.5;
+  font-weight: bold;
+  padding-bottom: 10px; }
+
+.calContent {
+  font-family: "Lato", sans-serif;
+  color: #efe9d8;
+  font-size: 18px;
+  line-height: 1.5;
+  padding-bottom: 10px; }
+
+.calLink {
+  font-family: "Lato", sans-serif;
+  color: #efe9d8;
+  font-size: 16px;
+  line-height: 1.7;
   text-decoration: none; }
 
 footer {
