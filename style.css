@@ -98,89 +98,181 @@ table {
   font-weight: bold;
   padding: 108px 50px 108px 30px; }
 
+/*
+.contentContainer{
+  background-color: $body_color;
+}
+
+.contentBorder{
+  padding: 50px 30px;
+  background-color: transparent;
+}
+
+.boldDroid{
+  font-family: $droid;
+  font-size: 18px;
+  color: content_header;
+  line-height: 1.6;
+}
+
+.content{
+  font-family: $droid;
+  color: $content;
+  font-size: 15px;
+  line-height: 1.56;
+  padding-top: 30px;
+}
+
+.redline{
+  background-color: $red_line;
+  height: 1px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.eventHeader{
+  color: $section_header;
+  font-family: $lato;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 30px 0px;
+}
+
+
+
+.content:last-of-type{
+  padding-bottom: 30px;
+}
+
+aside .boldDroid, aside .content{
+  padding-top: 20px;
+}
+
+.link{
+  color: $content_header;
+  font-family: $lato;
+  text-decoration: none;
+  padding: 20px 0px;
+  display: inline-block;
+}
+
+.eventLink{
+  text-decoration: none;
+  color: $big_links;
+  font-size: 21px;
+  font-weight: bold;
+  font-family: $droid;
+  line-height: 1.7;
+}
+
+.whitebg{
+  background-color: white;
+}
+
+.tanbg{
+  background-color: $section_color;
+}
+
+.link:last-of-type{
+  padding-left: 50px;
+}
+
+.secHead{
+  font-size: 21px;
+  color: $content_header;
+  padding: 50px 0px 30px
+}
+
+.value h3{
+  font-size: 18px;
+  font-style: italic;
+  color: $content;
+  font-family: $droid;
+}
+
+.value p{
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: $droid;
+  color: $content;
+}
+
+.purpose h2{
+  font-size: 21px;
+  color: $content_header;
+}
+
+*/
+.mobilePadding, .overviewHeader, .overviewContent, .eventHeader, .eventName, .date, .eventContent, .eventLink {
+  padding: 0px 30px; }
+
 .contentContainer {
   background-color: #ffc400; }
 
-.contentBorder {
-  padding: 50px 30px;
-  background-color: transparent; }
-
-.boldDroid {
+.overviewHeader {
   font-family: "Droid Serif", serif;
+  color: #4e1c07;
   font-size: 18px;
-  color: content_header;
-  line-height: 1.6; }
+  line-height: 1.6;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 40px; }
 
-.content {
+.overviewContent {
   font-family: "Droid Serif", serif;
   color: #021d2c;
   font-size: 15px;
-  line-height: 1.56;
-  padding-top: 30px; }
+  line-height: 1.6;
+  padding-bottom: 40px; }
 
 .redline {
   background-color: #ee3e28;
   height: 1px;
-  width: 100%;
+  width: 93%;
   margin: 0 auto; }
 
+.event {
+  padding-bottom: 55px; }
+
 .eventHeader {
+  font-family: "Lato", sans-serif;
   color: #eb503c;
-  font-family: "Lato", sans-serif;
-  font-weight: bold;
-  font-size: 16px;
-  padding: 30px 0px; }
-
-.content:last-of-type {
-  padding-bottom: 30px; }
-
-aside .boldDroid, aside .content {
-  padding-top: 20px; }
-
-.link {
-  color: #4e1c07;
-  font-family: "Lato", sans-serif;
-  text-decoration: none;
-  padding: 20px 0px;
-  display: inline-block; }
-
-.eventLink {
-  text-decoration: none;
-  color: #4c1a14;
-  font-size: 21px;
-  font-weight: bold;
-  font-family: "Droid Serif", serif;
-  line-height: 1.7; }
-
-.whitebg {
-  background-color: white; }
-
-.tanbg {
-  background-color: #edecde; }
-
-.link:last-of-type {
-  padding-left: 50px; }
-
-.secHead {
-  font-size: 21px;
-  color: #4e1c07;
-  padding: 50px 0px 30px; }
-
-.value h3 {
-  font-size: 18px;
-  font-style: italic;
-  color: #021d2c;
-  font-family: "Droid Serif", serif; }
-
-.value p {
   font-size: 16px;
   line-height: 1.5;
-  font-family: "Droid Serif", serif;
-  color: #021d2c; }
+  padding-top: 30px;
+  padding-bottom: 15px; }
 
-.purpose h2 {
+.eventName {
+  font-family: "Droid Serif", serif;
+  color: #4c1a14;
   font-size: 21px;
-  color: #4e1c07; }
+  line-height: 1.5;
+  font-weight: bold;
+  padding-bottom: 10px; }
+
+.date {
+  font-family: "Lato", sans-serif;
+  color: #021d2c;
+  font-size: 18px;
+  line-height: 1.7;
+  font-weight: bold;
+  padding-bottom: 10px; }
+
+.eventContent {
+  font-family: "Lato", sans-serif;
+  color: #021d2c;
+  font-size: 16px;
+  line-height: 1.6;
+  padding-bottom: 10px; }
+
+.eventLink {
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  color: #4e1c07;
+  font-size: 16px;
+  line-height: 2;
+  font-weight: bold;
+  text-decoration: none; }
 
 footer {
   background-color: white;
