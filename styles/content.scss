@@ -159,6 +159,7 @@ aside .boldDroid, aside .content{
   @include text($droid, $big_links, 21px, 1.5);
   font-weight: bold;
   padding-bottom: 10px;
+  text-decoration: none;
 }
 
 .date{
@@ -215,4 +216,66 @@ aside .boldDroid, aside .content{
   @extend .mobilePadding;
   @include text($lato, $hero_text, 16px, 1.7);
   text-decoration: none;
+}
+
+.commSection{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.commSection:nth-of-type(even){
+  background-color: $section_color;
+}
+
+.commSection ol{
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+
+.valName{
+  @include text($droid, $content, 18px, 1.3);
+  font-weight: bold;
+  font-style: italic;
+  @extend .mobilePadding;
+}
+
+.button a{
+  @include text($droid, $section_color, 18px, 3.5);
+  text-decoration: none;
+}
+
+.button{
+  background-color: $section_header;
+  margin: 0 auto;
+  width: 220px;
+  height: 60px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 760px){
+  .redline{
+    display: none;
+  }
+
+  .contentContainer{
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+    top: 180px;
+  }
+
+  .overview{
+    width: 68%;
+    display: inline-block;
+  }
+
+  .event{
+    width: 28%;
+    display: inline-block;
+    padding: 0px;
+  }
+
+  .homeEvent{
+    border-left: 1px solid #ee3e28;
+  }
 }
