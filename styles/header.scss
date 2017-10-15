@@ -26,11 +26,13 @@
   float: right;
   display: inline-block;
   height: 100%;
+  width: 30%;
 }
 
 .navList{
   display: none;
   background-color: header_color;
+  width: 100%;
 }
 
 .navBut{
@@ -41,6 +43,8 @@
   font-size: 18px;
   padding: 20px 15px 20px;
   height: 100%;
+  width: 100%;
+  text-align: right;
 }
 
 .navLink{
@@ -49,10 +53,31 @@
   color: $header_text;
   background-color: $header_color;
   font-family: $lato;
-  text-align: center;
+  display: block;
 }
-
 
 .navBar:hover .navList{
   display: block;
+}
+
+.navLink:hover{
+  background-color: $startup_color;
+}
+
+
+@media only screen and (min-width: 760px){
+  .navBut{
+    display: none;
+  }
+
+  .navList{
+    display: inline;
+  }
+
+  .navLink{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    color: $selection;
+  }
 }
