@@ -171,17 +171,44 @@
   }
 
   .overview{
-    width: 68%;
+    width: 63%;
+    height: auto;
     display: inline-block;
+    padding-left: 4%;
   }
 
   .event{
     width: 28%;
     display: inline-block;
-    padding: 0px;
+    vertical-align: top;
+    padding-left: 4%;
+    margin-top: 40px;
+  }
+  .eventHeader{
+    padding-top: 0px;
   }
 
   .homeEvent{
     border-left: 1px solid #ee3e28;
+    padding-bottom: 40px;
+    padding-left: 0;
   }
+
+  .involved{
+    width: 36%;
+    display: inline-block;
+    float: left;
+  }
+
+  .meetup{
+    width: 63%;
+    display: inline-block;
+    float: right;
+  }
+
+  .meetup div, .involved div{
+    padding-left: 5%;
+  }
+
+
 }
