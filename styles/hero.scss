@@ -20,9 +20,17 @@
 
 
 @media only screen and (min-width: 760px){
+  .hero h1{
+    font-size: 56px;
+    width: 680px;
+    padding-left: 115px;
+  }
+
   .hero{
-    // position: absolute;
-    // width: 100%;
-    // background-size: cover;
+    height: 500px;
+  }
+
+  .cal{
+    height: 350px;
   }
 }

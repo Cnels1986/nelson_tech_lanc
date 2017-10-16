@@ -143,6 +143,17 @@ table {
   font-weight: bold;
   padding: 108px 50px 108px 30px; }
 
+@media only screen and (min-width: 760px) {
+  .hero h1 {
+    font-size: 56px;
+    width: 680px;
+    padding-left: 115px; }
+
+  .hero {
+    height: 500px; }
+
+  .cal {
+    height: 350px; } }
 .mobilePadding, .overviewHeader, .overviewContent, .eventHeader, .eventName, .date, .address, .eventLink, .calName, .calContent, .calLink, .valName {
   padding: 0px 30px; }
 
@@ -302,7 +313,7 @@ table {
     width: 85%;
     margin: 0 auto;
     position: relative;
-    top: -50px; }
+    top: -150px; }
 
   .overview {
     width: 68%;
