@@ -16,3 +16,23 @@ footer p{
   padding: 5px;
   font-size: 16px;
 }
+
+@media only screen and (min-width: 760px){
+  footer{
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  footer p:nth-of-type(2){
+    float: right;
+  }
+
+  footer p{
+    float: left;
+    font-size: 21px;
+    display: inline-block;
+    padding: 30px 0px;
+  }
+
+
+}
