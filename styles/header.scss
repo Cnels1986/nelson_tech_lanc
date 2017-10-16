@@ -16,6 +16,7 @@
   padding: 20px 0px 20px 25px;
   text-align: left;
   display: inline-block;
+  text-decoration: none;
 }
 
 .logo strong{
@@ -50,7 +51,7 @@
 .navLink{
   padding: 10px;
   text-decoration: none;
-  color: $header_text;
+  color: $selection;
   background-color: $header_color;
   font-family: $lato;
   display: block;
@@ -66,18 +67,49 @@
 
 
 @media only screen and (min-width: 760px){
+  .header{
+    height: 77px;
+  }
+
+  .logo{
+    font-size: 24px;
+    padding: 26px;
+  }
+
   .navBut{
     display: none;
   }
 
+  .navBar{
+    width: auto;
+    padding-right: 18px;
+  }
+
   .navList{
-    display: inline;
+    display: inline-block;
+    float: right;
+  }
+
+  .navList li{
+    display: inline-block;
+    height: 98%;
   }
 
   .navLink{
-    display: inline-block;
     font-weight: bold;
     font-size: 16px;
-    color: $selection;
+    text-align: center;
+    line-height: 1.6;
+    margin: 22px;
+    padding: 0px;
   }
+
+  .active{
+    background-color: $section_header;
+    a{
+      color: $hero_text;
+      background-color: $section_header;
+    }
+  }
+
 }
