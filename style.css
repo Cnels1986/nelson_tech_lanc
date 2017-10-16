@@ -117,11 +117,6 @@ table {
   font-weight: bold;
   padding: 108px 50px 108px 30px; }
 
-@media only screen and (min-width: 760px) {
-  .hero {
-    position: absolute;
-    width: 100%;
-    background-size: cover; } }
 /*
 .contentContainer{
   background-color: $body_color;
@@ -375,7 +370,7 @@ aside .boldDroid, aside .content{
     width: 85%;
     margin: 0 auto;
     position: relative;
-    top: 180px; }
+    top: -50px; }
 
   .overview {
     width: 68%;
