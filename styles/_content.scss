@@ -1,4 +1,4 @@
-@import "color_n_font";
+@import "_color_n_font";
 
 @mixin text($font, $color, $size, $height){
   font-family: $font;

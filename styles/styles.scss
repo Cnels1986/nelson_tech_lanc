@@ -1,9 +1,9 @@
-@import "reset";
-@import "color_n_font";
-@import "header";
-@import "hero";
-@import "content";
-@import "footer";
+@import "_reset";
+@import "_color_n_font";
+@import "_header";
+@import "_hero";
+@import "_content";
+@import "_footer";
 
 .container{
   // min-width: 320px; //Mobile's minimum width
