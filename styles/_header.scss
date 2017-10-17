@@ -1,6 +1,6 @@
 //SCSS File to format and style the header_color
 
-@import "color_n_font";
+@import "_color_n_font";
 
 //Mobile styles
 
@@ -59,10 +59,6 @@
 
 .navBar:hover .navList{
   display: block;
-}
-
-.navLink:hover{
-  background-color: $startup_color;
 }
 
 
