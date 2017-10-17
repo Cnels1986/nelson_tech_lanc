@@ -171,7 +171,7 @@ table {
   color: #021d2c;
   font-size: 15px;
   line-height: 1.6;
-  padding-bottom: 40px; }
+  padding-bottom: 30px; }
 
 .redline {
   background-color: #ee3e28;
@@ -262,6 +262,9 @@ table {
   line-height: 1.7;
   text-decoration: none; }
 
+.commNav {
+  display: none; }
+
 .commSection {
   padding-top: 50px;
   padding-bottom: 50px; }
@@ -294,7 +297,7 @@ table {
 
 .button {
   background-color: #eb503c;
-  margin: 0px 0px 20px;
+  margin-bottom: 20px;
   height: 60px;
   text-align: center;
   display: block; }
@@ -311,6 +314,9 @@ table {
     margin: 0 auto;
     position: relative;
     top: -150px; }
+
+  .contentContainer:nth-of-type(2) {
+    background-color: white; }
 
   .overview {
     width: 63%;
@@ -344,7 +350,28 @@ table {
     float: right; }
 
   .meetup div, .involved div {
-    padding-left: 5%; } }
+    padding-left: 5%; }
+
+  .commSection {
+    padding-left: 4%; }
+
+  .overviewContent, .valName {
+    width: 48%; }
+
+  .OV {
+    width: auto; }
+
+  .buttons {
+    width: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    float: left;
+    padding-left: 4%; }
+
+  .button {
+    padding: 20px;
+    margin-right: 20px;
+    display: flex; } }
 footer {
   background-color: white;
   height: 100px; }
@@ -370,11 +397,11 @@ footer p {
   footer p {
     float: left;
     font-size: 21px;
-    display: inline-block;
+    display: inline;
     padding: 30px 0px; } }
 .container {
-  width: 320px;
-  margin: 0 auto; }
+  min-width: 320px;
+  width: 100%; }
 
 @media only screen and (min-width: 760px) {
   .container {

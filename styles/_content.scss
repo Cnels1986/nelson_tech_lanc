@@ -26,7 +26,7 @@
 .overviewContent{
   @include text($droid, $content, 15px, 1.6);
   @extend .mobilePadding;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
 
 .redline{
@@ -116,6 +116,10 @@
   text-decoration: none;
 }
 
+.commNav{
+  display: none;
+}
+
 .commSection{
   padding-top: 50px;
   padding-bottom: 50px;
@@ -141,14 +145,13 @@
   text-decoration: none;
 }
 
-
 .buttons{
   margin: auto;
   width: 220px;
 }
 .button{
   background-color: $section_header;
-  margin: 0px 0px 20px;
+  margin-bottom: 20px;
   height: 60px;
   text-align: center;
   display: block;
@@ -168,6 +171,10 @@
     margin: 0 auto;
     position: relative;
     top: -150px;
+  }
+
+  .contentContainer:nth-of-type(2){
+    background-color: white;
   }
 
   .overview{
@@ -210,5 +217,29 @@
     padding-left: 5%;
   }
 
+  .commSection{
+    padding-left: 4%;
+  }
 
+  .overviewContent, .valName{
+    width: 48%;
+  }
+
+  .OV{
+    width: auto;
+  }
+
+  .buttons{
+    width: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    float: left;
+    padding-left: 4%;
+  }
+
+  .button{
+    padding: 20px;
+    margin-right: 20px;
+    display: flex;
+  }
 }
