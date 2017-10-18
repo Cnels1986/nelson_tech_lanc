@@ -18,69 +18,34 @@
   display: inline-block;
   text-decoration: none;
 }
-
 .logo strong{
   font-weight: 900;
 }
 
-.navBar{
-  float: right;
-  display: inline-block;
-  height: 100%;
-  width: 30%;
-}
-
-.navList{
-  display: none;
-  background-color: header_color;
-  width: 100%;
-}
-
-.navBut{
-  color: $header_text;
-  text-decoration: none;
-  background-color: $header_color;
-  border: none;
-  font-size: 18px;
-  padding: 20px 15px 20px;
-  height: 100%;
-  width: 100%;
-  text-align: right;
-}
-
-.navLink{
-  padding: 10px;
-  text-decoration: none;
-  color: $selection;
-  background-color: $header_color;
-  font-family: $lato;
-  display: block;
-}
-
-.navBar:hover .navList{
-  display: block;
-}
-
-
+//Browser header
 @media only screen and (min-width: 760px){
   .header{
     height: 77px;
   }
-
   .logo{
     font-size: 24px;
     padding: 26px;
   }
 
-  .navBut{
-    display: none;
-  }
-
   .navBar{
+    float: right;
+    display: inline-block !important;
+    height: 100%;
     width: auto;
-    padding-right: 18px;
   }
-
+  .navLink{
+    text-decoration: none;
+    color: $selection;
+    background-color: $header_color;
+    font-family: $lato;
+    display: inline-block;
+    margin-right: 20px;
+  }
   .navList{
     display: inline-block;
     float: right;
@@ -96,12 +61,14 @@
     font-size: 16px;
     text-align: center;
     line-height: 1.6;
-    margin: 22px;
-    padding: 0px;
+    position: relative;
+    top: -80px;
+    padding: 26px 18px;
   }
 
   .active{
     background-color: $section_header;
+
     a{
       color: $hero_text;
       background-color: $section_header;

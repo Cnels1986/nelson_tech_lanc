@@ -7,27 +7,31 @@
     <link rel="stylesheet" type="text/css" href="../style.css">
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700|Lato:400,900" rel="stylesheet">
     <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <script type="text/javascript" src="../jquery-3.2.1.js"></script>
+    <script src="../file.js"></script>
   </head>
 
   <body class="container">
     <header class="header">
       <a href="../index.html" class="logo">TECH<strong>LANCASTER</strong></a>
 
-      <nav class="navBar">
-        <button class="navBut">Menu</button>
-        <ul class="navList">
-          <li>
-            <a href="https://www.meetup.com/find/tech/" class="navLink" target="_blank">Resources for Meetup</a>
-          </li>
-          <li class="active">
-            <a href="calendar.html" class="navLink">Calendar</a>
-          </li>
-          <li>
-            <a href="community.html" class="navLink">Community</a>
-          </li>
-        </ul>
-      </nav>
+      <button class="hamburger">&#9776;</button>
+      <button class="cross">&#735;</button>
     </header>
+
+    <nav class="navBar menu">
+      <ul class="navList">
+        <li>
+          <a href="https://www.meetup.com/find/tech/" class="navLink" target="_blank">Resources for Meetup</a>
+        </li>
+        <li>
+          <a href="calendar.html" class="navLink active">Calendar</a>
+        </li>
+        <li>
+          <a href="community.html" class="navLink">Community</a>
+        </li>
+      </ul>
+    </nav>
     <section class="hero cal">
       <h1>Upcoming Meetings</h1>
     </section>
@@ -131,7 +135,6 @@
 
     </section>
 
-
       <section class="involved">
         <div>
           <h2 class="calName">Get Involved</h2>
@@ -147,7 +150,6 @@
           <a href="" target="_blank" class="calLink">Check it out>></a>
         </div>
       </section>
-
     <footer>
       <p>@techLancaster</p>
       <p>&copy; 2017 TechLancaster</p>
