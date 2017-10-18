@@ -233,13 +233,12 @@
     width: auto;
     display: flex;
     flex-direction: row-reverse;
-    float: left;
     padding-left: 4%;
+    float: left;
   }
 
   .button{
-    padding: 20px;
-    margin-right: 20px;
-    display: flex;
+    padding: 7px 15px;
+    margin: 10px;
   }
 }

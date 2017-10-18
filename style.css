@@ -57,39 +57,6 @@ table {
 .logo strong {
   font-weight: 900; }
 
-.navBar {
-  float: right;
-  display: inline-block;
-  height: 100%;
-  width: 30%; }
-
-.navList {
-  display: none;
-  background-color: header_color;
-  width: 100%; }
-
-.navBut {
-  color: #064159;
-  text-decoration: none;
-  background-color: #ffab00;
-  border: none;
-  font-size: 18px;
-  padding: 20px 15px 20px;
-  height: 100%;
-  width: 100%;
-  text-align: right; }
-
-.navLink {
-  padding: 10px;
-  text-decoration: none;
-  color: #72261d;
-  background-color: #ffab00;
-  font-family: "Lato", sans-serif;
-  display: block; }
-
-.navBar:hover .navList {
-  display: block; }
-
 @media only screen and (min-width: 760px) {
   .header {
     height: 77px; }
@@ -98,12 +65,19 @@ table {
     font-size: 24px;
     padding: 26px; }
 
-  .navBut {
-    display: none; }
-
   .navBar {
-    width: auto;
-    padding-right: 18px; }
+    float: right;
+    display: inline-block !important;
+    height: 100%;
+    width: auto; }
+
+  .navLink {
+    text-decoration: none;
+    color: #72261d;
+    background-color: #ffab00;
+    font-family: "Lato", sans-serif;
+    display: inline-block;
+    margin-right: 20px; }
 
   .navList {
     display: inline-block;
@@ -118,14 +92,116 @@ table {
     font-size: 16px;
     text-align: center;
     line-height: 1.6;
-    margin: 22px;
-    padding: 0px; }
+    position: relative;
+    top: -80px;
+    padding: 26px 18px; }
 
   .active {
     background-color: #eb503c; }
     .active a {
       color: #efe9d8;
       background-color: #eb503c; } }
+@media only screen and (min-width: 761px) {
+  .hamburger, .cross {
+    display: none; } }
+@media only screen and (max-width: 760px) {
+  body {
+    margin: 0;
+    width: 100%; }
+
+  header {
+    width: 100%;
+    background: #ffab00; }
+
+  .hamburger {
+    background: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 45px;
+    padding: 5px 15px 0px 15px;
+    color: #064159;
+    border: 0;
+    font-size: 1.4em;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    z-index: 10000000000000; }
+
+  .cross {
+    background: none;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    padding: 7px 15px 0px 15px;
+    color: #064159;
+    border: 0;
+    font-size: 3em;
+    line-height: 65px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    z-index: 10000000000000; }
+
+  .menu {
+    z-index: 1000000;
+    font-size: 21px;
+    width: 100%;
+    background-color: #ffab00;
+    position: absolute;
+    text-align: left;
+    font-family: "Lato", sans-serif; }
+
+  .menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-image: none; }
+
+  .menu li {
+    display: block;
+    padding: 15px 0px 15px 30px;
+    border-bottom: #064159 1px solid; }
+
+  .menu li:hover {
+    display: block;
+    background: #eb503c;
+    padding-left: 30px;
+    border-bottom: #064159 1px solid; }
+
+  .menu ul li a {
+    text-decoration: none;
+    margin: 0px;
+    color: #064159; }
+
+  .menu ul li a:hover {
+    color: #064159;
+    text-decoration: none; }
+
+  .menu a {
+    text-decoration: none;
+    color: #666; }
+
+  .menu a:hover {
+    text-decoration: none;
+    color: #666; }
+
+  /*
+  .glyphicon-home{
+    color:white;
+    font-size:1.5em;
+    margin-top:5px;
+    margin:0 auto;
+  }*/
+  header {
+    display: inline-block;
+    font-size: 12px; }
+
+  span {
+    padding-left: 20px; }
+
+  a {
+    color: #064159; } }
 .hero {
   background-image: url("Home Page.jpg");
   background-size: cover;
@@ -365,13 +441,12 @@ table {
     width: auto;
     display: flex;
     flex-direction: row-reverse;
-    float: left;
-    padding-left: 4%; }
+    padding-left: 4%;
+    float: left; }
 
   .button {
-    padding: 20px;
-    margin-right: 20px;
-    display: flex; } }
+    padding: 7px 15px;
+    margin: 10px; } }
 footer {
   background-color: white;
   height: 100px; }
