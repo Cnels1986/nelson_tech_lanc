@@ -233,6 +233,9 @@ table {
 .contentContainer {
   background-color: #ffc400; }
 
+.contentContainer:nth-of-type(2) {
+  background-color: white; }
+
 .overviewHeader {
   font-family: "Droid Serif", serif;
   color: #4e1c07;
@@ -412,7 +415,7 @@ table {
 
   .homeEvent {
     border-left: 1px solid #ee3e28;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     padding-left: 0; }
 
   .involved {
